@@ -42,23 +42,118 @@ nav ul li a:hover {
     font-weight: bold;
 }
 
+nav .search {
+    position: relative;
+}
+
 nav .search input {
     border-radius: 20px;
     border: solid 3px #FFFFFF;
     height: 37px;
+    padding-left: 34px;
+    font-size: 20px;
 }
 
 nav .search i {
     position: absolute;
+    font-size: 24px;
+    top: 10px;
     left: 10px;
+}
+
+nav #cart {
+    font-size: 35px;
+    color: hsl(0, 0%, 0%);
 }
 
 main .content {
     height: 563px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main #about-us > * {
+    padding: 0 438px;
+    text-align: center;
+}
+
+main #reviews > * {
+    padding: 0 20px;
+    text-align: center;
+}
+
+.container div {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin: 0 50px;
+    padding: 10px 5px;
+}
+
+.container p {
+    font-weight: 500;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 24px;
+}
+
+.container h6 {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 37.5px;
+}
+
+.container div * {
+    margin: 10px 0;
+}
+
+main #about-us h1 {
+    font-weight: 800;
+    font-size: 54px;
+    line-height: 81px;
+}
+
+main #about-us h2 {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 36px;
+    font-style: italic;
+    color: #FFFFFF;
+}
+
+main #about-us p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+}
+
+main #reviews h1 {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 81px;
+    margin-bottom: 20px;
 }
 
 main .intersection {
+    background: #000000;
+    color: #FFFFFF;
     height: 257px;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 54px;
+    line-height: 81px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about-us {
+    background: #8E8FFA;
+}
+
+#reviews {
+    background: #C780FA;
 }
 
 .container {
