@@ -6,15 +6,16 @@
     src: url('../font/BodoniXT.ttf'), format('truetype');
 }
 
-/*html::-webkit-scrollbar {
+html::-webkit-scrollbar {
     display: none;
-}*/
+}
 
 html, body {
-    /*-ms-overflow-style: none;
-    scrollbar-width: none;*/
+    -ms-overflow-style: none;
+    scrollbar-width: none;
     font-family: 'Bodoni', sans-serif;
     overflow-x: hidden;
+    background-color: #f4f5f7;
     font-weight: 400;
     width: 100vw;
     height: auto;
@@ -28,5 +29,9 @@ a {
 }
 
 a:hover {
-    color: #393939;
+    color: #555555;
+}
+
+p {
+    margin: 0;
 }
