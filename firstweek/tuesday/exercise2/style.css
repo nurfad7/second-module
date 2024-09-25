@@ -3,6 +3,15 @@
     padding: 0;
 }
 
+html::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     min-height: 100vh;
@@ -22,6 +31,7 @@ nav #profpic img{
     aspect-ratio: 1/1;
     border-radius: 100%;
     border: solid 2px #ffffff;
+    object-fit: cover;
 }
 
 nav ul {
@@ -75,7 +85,7 @@ main .content {
 }
 
 main #about-us > * {
-    padding: 0 438px;
+    padding: 0 30vw;
     text-align: center;
 }
 
@@ -167,4 +177,19 @@ main .intersection {
     aspect-ratio: 1/1;
     border-radius: 100%;
     border: solid 3px #000000;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    main #about-us > * {
+        padding: 0 7%;
+    }
+
+    .container {
+        flex-direction: column;
+    }
 }
