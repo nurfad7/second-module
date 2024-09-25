@@ -1,0 +1,22 @@
+.navbar {
+    display: grid;
+    height: 50px;
+    background-color: #C4C4C4;
+    align-items: center;
+    font-size: 14px;
+}
+
+.navbar .title {
+    grid-column: 2;
+    text-align: right;
+    padding-right: 100px;
+    text-decoration: underline;
+}
+
+.navbar .user-option {
+    grid-column: 3;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    gap: 20px
+}

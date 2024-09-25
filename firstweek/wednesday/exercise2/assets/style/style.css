@@ -1,0 +1,11 @@
+@import url('header.css');
+
+@font-face {
+    font-family: 'Bodoni';
+    src: url('../font/BodoniXT.ttf');
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}

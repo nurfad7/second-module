@@ -1,0 +1,15 @@
+.main {
+    padding: 20px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.main a {
+    font-size: 18px;
+}
+
+.season img {
+    width: 80vw;
+}
