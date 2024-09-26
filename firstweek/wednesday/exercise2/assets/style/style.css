@@ -1,11 +1,35 @@
 @import url('header.css');
+@import url('main.css');
 
 @font-face {
-    font-family: 'Bodoni';
-    src: url('../font/BodoniXT.ttf');
+    font-family: 'UKIJNsq';
+    src: url('../font/UKIJNsq.ttf');
+}
+
+html::-webkit-scrollbar {
+    display: none;
 }
 
 html, body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    font-family: 'UKIJNsq', sans-serif;
+    overflow-x: hidden;
+    background-color: #FFFFFF;
+    font-weight: 400;
+    width: 100vw;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    color: #555555;
+}
+
+p {
     margin: 0;
-    padding: 0;
 }
