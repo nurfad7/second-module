@@ -35,7 +35,7 @@ body img {
     width: 50vw;
     display: flex;
     padding: 0 100px;
-    gap: 80px;
+    gap: 60px;
 }
 
 .menu a {
@@ -53,8 +53,8 @@ body img {
 
 .search i {
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 12px;
+    left: 0;
 }
 
 .search input {
